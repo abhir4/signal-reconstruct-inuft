@@ -1,4 +1,5 @@
 # Image Reconstruction from Radial Sampling of Frequency Data
+<img width="1122" height="705" alt="image" src="https://github.com/user-attachments/assets/ceba3503-c505-4d57-8091-a0684096a01b" />
 
 Reconstructing medical images from non uniform samples (radial sampling) frequency domain data and comparing Inverse Non Uniform Fourier Transform (INUFT) and Frequency Domain Interpolation (FDI) reconstruction methods across different sampling ratios.
 
@@ -8,7 +9,7 @@ The setup is using a simplified method for accelerated image acquisition in medi
 
 Given an input image, obtain its 2d Fourier transform, retain the coeffs that fall on a set of radial spokes through the k space center and perform image reconstruction from the partial spectrum. 
 
-Lower sampling ratio implies faster acquisiton, but less data to reconstruct from.
+Lower sampling ratio implies faster acquisition, but less data to reconstruct from.
 
 ## Methodology
 
@@ -53,7 +54,7 @@ This runs a batch evaluations, prints the PSNR/MIE tables and displays the image
 
 ```
 `
-|---singal_recon.py #sampling, reconstruction, evaluation and display of images
+|---signal_recon.py #sampling, reconstruction, evaluation and display of images
 |---README.md
 |---.gitignore #excludes the dataset
 ```
