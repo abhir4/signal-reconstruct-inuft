@@ -1,0 +1,13 @@
+img_dir/
+*.png
+*.jpg
+*.jpeg
+
+!docs/*.png
+__pycache__/
+*.__pycache__
+.venv/
+venv/
+
+.DS_Store
+.vscode/
